@@ -3,6 +3,9 @@ Example usage of the Flyway QuestDB plugin
 
 # Flyway migration via API
 ```java
+import org.flywaydb.core.Flyway;
+import org.flywaydb.core.api.output.MigrateResult;
+
 public class FlywayTest {
     private static final String PG_HOST = "localhost";
     private static final int PG_PORT = 8812;
