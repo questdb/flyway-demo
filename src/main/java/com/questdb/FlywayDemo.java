@@ -1,8 +1,5 @@
-# flyway-demo
-Example usage of the Flyway QuestDB plugin
+package com.questdb;
 
-# Flyway migration via API
-```java
 import org.flywaydb.core.Flyway;
 import org.flywaydb.core.api.output.MigrateResult;
 
@@ -31,4 +28,3 @@ public class FlywayDemo {
         }
     }
 }
-```
